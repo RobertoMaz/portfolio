@@ -45,9 +45,6 @@ a {
   transition: all 0.5s ease-out;  
 }
 
-a:hover {
-    opacity: 0.75;
-}
 
 h1 {
     margin: 0;
@@ -188,9 +185,7 @@ p {
     transition: all 0.5s ease-out;
 }
 
-.contact-form input[type="submit"]:hover {
-    opacity: 0.60;
-}
+
 
 .contact-form textarea {
     border: thin solid var(--gray-dark-color);
@@ -613,10 +608,6 @@ progress::-moz-progress-bar {
 
 }
 
-.portfolio-card:hover .portfolio-card-info {
-    opacity: 1;
-    pointer-events: auto;
-}
 
 .portfolio-card-info > div {
     padding: 1rem;
@@ -720,6 +711,10 @@ progress::-moz-progress-bar {
 }
 
 @media screen and (min-width: 1024px){
+    a:hover {
+        opacity: 0.75;
+    }
+
     html {
         font-size: 12px;
     }
@@ -737,6 +732,10 @@ progress::-moz-progress-bar {
         grid-template-columns: repeat(4, 24%);
         justify-content: space-between;
         
+    }
+
+    .contact-form input[type="submit"]:hover {
+        opacity: 0.60;
     }
 
     .footer {
@@ -757,6 +756,11 @@ progress::-moz-progress-bar {
 
     .portfolio .section-title {
         grid-column: span 3;
+    }
+
+    .portfolio-card:hover .portfolio-card-info {
+    opacity: 1;
+    pointer-events: auto;
     }
 
     .services > .container {
