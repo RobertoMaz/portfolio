@@ -1,3 +1,3 @@
 # Portfolio-CV
 
-- [Roberto Mazzarello CV](https://robertomaz.github.io/portfolio/cv)
+- [Roberto Mazzarello CV](https://robertomaz.github.io/portfolio)
